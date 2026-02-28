@@ -1607,6 +1607,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1992606935}
+        m_TargetAssemblyTypeName: SceneChangerScript, Assembly-CSharp
+        m_MethodName: QuitApplication
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &769206157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,6 +2045,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1992606935}
+        m_TargetAssemblyTypeName: SceneChangerScript, Assembly-CSharp
+        m_MethodName: LoadWithDelay
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DressRoom
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1167416540
@@ -2815,6 +2839,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1992606933}
   - component: {fileID: 1992606932}
+  - component: {fileID: 1992606935}
+  - component: {fileID: 1992606934}
   m_Layer: 0
   m_Name: ScriptHolder
   m_TagString: Untagged
@@ -2857,6 +2883,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1992606934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992606931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2aab98e1bfbf496f8b044125f77d5d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterInfoUI
+  nameText: {fileID: 0}
+  ageText: {fileID: 0}
+  birthYearErrorText: {fileID: 544410232}
+  nameField: {fileID: 440474527}
+  ageField: {fileID: 1363542317}
+  startGameButton: {fileID: 1167416539}
+--- !u!114 &1992606935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992606931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71561913f2b1e480592be269a13c4943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangerScript
 --- !u!1 &2070872706
 GameObject:
   m_ObjectHideFlags: 0
